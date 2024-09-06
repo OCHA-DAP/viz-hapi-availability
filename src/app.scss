@@ -1,0 +1,36 @@
+@import '_fonts';
+
+:root {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+a {
+  color: #007CE0;
+  text-decoration: none;
+}
+a:hover {
+  color: #0063B3;
+}
+
+h1 {
+  font-family: 'Gotham-Bold', sans-serif;
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+
+div.multiselect {
+  width: 350px;
+}

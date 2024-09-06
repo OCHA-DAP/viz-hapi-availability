@@ -55,7 +55,6 @@
     });
   }
 
-
   onMount(async () => {
     tooltip = document.querySelector('.tooltip')
     initEvents();
@@ -700,50 +699,5 @@
     pointer-events: none;
     position: absolute;
     width: 100px;
-  }
-
-
-  /** 
-  tr > td.fixed-col {
-    border-right: 1px solid #CCC;
-  }
-  thead > tr > th.fixed-col {
-    background-color: #FFF;
-    border-color: #FFF;
-    border-right: 1px solid #CCC;
-    border-bottom: 1px solid #CCC;
-  }
-  tbody tr:first-child td {
-    border-top: 0 !important;
-  }
-  tbody tr:last-child td {
-    border-bottom: 1px solid #CCC;
-  }**/
-
-  /** overrides **/
-  .md-typeset__table {
-    display: block;
-    height: 800px;
-    margin: 0;
-    overflow: auto;
-    padding: 0;
-    position: relative;
-    width: 100%;
-  }
-  .md-typeset__scrollwrap {
-    margin: 0;
-    overflow: hidden;
-  }
-  .md-typeset table:not([class]) {
-    border: 0;
-    display: unset;
-    overflow: unset;
-  }
-  .md-typeset table:not([class]) td {
-    border-color: #CCC;
-    vertical-align: middle;
-  }
-  .md-typeset table:not([class]) th {
-    vertical-align: bottom;
   }
 </style>

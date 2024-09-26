@@ -64,6 +64,12 @@ h1 {
   }
 }
 
+@-moz-document url-prefix() {
+  .admin-icon {
+    padding-bottom: 2px;
+  }
+}
+
 i.no-data {
   background-color: #888;
   display: block;

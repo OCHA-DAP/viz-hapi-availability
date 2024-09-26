@@ -239,6 +239,7 @@
     }
   }
 
+  th.fixed-col.category,
   .fixed-col {
     background-color: #FFF;
     font-family: 'Gotham-Bold';

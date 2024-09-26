@@ -9,6 +9,18 @@
   export let countries;
   export let tableData;
 
+  const sandboxURL = {
+    'humanitarian-needs': 'https://hapi.humdata.org/docs#/Affected%20people/get_humanitarian_needs_api_v1_affected_people_humanitarian_needs_get',
+    'refugees': 'https://hapi.humdata.org/docs#/Affected%20people/get_refugees_api_v1_affected_people_refugees_get',
+    'conflict-event': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_conflict_events_api_v1_coordination_context_conflict_event_get',
+    'funding': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_fundings_api_v1_coordination_context_funding_get',
+    'national-risk': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_national_risks_api_v1_coordination_context_national_risk_get',
+    'operational-presence': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_operational_presences_api_v1_coordination_context_operational_presence_get',
+    'food-price': 'https://hapi.humdata.org/docs#/Food%20Security%20%26%20Nutrition/get_food_prices_api_v1_food_food_price_get',
+    'food-security': 'https://hapi.humdata.org/docs#/Food%20Security%20%26%20Nutrition/get_food_security_api_v1_food_food_security_get',
+    'population': 'https://hapi.humdata.org/docs#/Population%20%26%20Socio-Economy/get_populations_api_v1_population_social_population_get',
+    'poverty-rate': 'https://hapi.humdata.org/docs#/Population%20%26%20Socio-Economy/get_poverty_rates_api_v1_population_social_poverty_rate_get'
+  }
 
   function initEvents() {
     // get table elements
@@ -129,21 +141,11 @@
             {#each subcategories as subcategory}
               <th>{formatStr(subcategory)}<br>
                 <span>
-                  <a href='https://hapi.humdata.org/docs#/' target='_blank'>Go to API Sandbox</a>
+                  <a href={(sandboxURL[subcategory] !== undefined) ? sandboxURL[subcategory] : 'https://hapi.humdata.org/docs#/'} target='_blank'>Go to API Sandbox</a>
                 </span>
               </th>
             {/each}
           {/each}
-<!--           <th>Humanitarian Needs<br><span><a href='https://hapi.humdata.org/docs#/Affected%20people/get_humanitarian_needs_api_v1_affected_people_humanitarian_needs_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Refugees<br><span><a href='https://hapi.humdata.org/docs#/Affected%20people/get_refugees_api_v1_affected_people_refugees_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Conflict Events<br><span><a href='https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_conflict_events_api_v1_coordination_context_conflict_event_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Funding<br><span><a href='https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_fundings_api_v1_coordination_context_funding_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>National Risk<br><span><a href='https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_national_risks_api_v1_coordination_context_national_risk_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Operational Presence<br><span><a href='https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_operational_presences_api_v1_coordination_context_operational_presence_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Food Prices<br><span><a href='https://hapi.humdata.org/docs#/Food%20Security%20%26%20Nutrition/get_food_prices_api_v1_food_food_price_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Food Security<br><span><a href='https://hapi.humdata.org/docs#/Food%20Security%20%26%20Nutrition/get_food_security_api_v1_food_food_security_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Baseline Population<br><span><a href='https://hapi.humdata.org/docs#/Population%20%26%20Socio-Economy/get_populations_api_v1_population_social_population_get' target='_blank'>Go to API Sandbox</a></span></th>
-          <th>Poverty Rate<br><span><a href='https://hapi.humdata.org/docs#/Population%20%26%20Socio-Economy/get_poverty_rates_api_v1_population_social_poverty_rate_get' target='_blank'>Go to API Sandbox</a></span></th> -->
         </tr>
       </thead>
       <tbody>

@@ -18,7 +18,7 @@
     tableCells.forEach(cell => {
       cell.addEventListener('mouseover', function() {
         if (!cell.classList.contains('fixed-col') && cell.tagName !== 'TH') {
-          console.log('hover')
+          console.log('hover cell')
           highlightCells(cell);
           //showTooltip(cell);
         }

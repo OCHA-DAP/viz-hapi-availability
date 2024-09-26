@@ -335,12 +335,12 @@
     
     categories = getCategories(data);
 
-    allTableData = getAdminLevels(data)
+    allTableData = getAdminLevels(data);
     countries.forEach(country => {
       tableData[country.label] = allTableData[country.label];
     });
 
-    console.log('--tableData', tableData)
+    console.log('--allTableData', Object.keys(allTableData).length)
 
     //initTracking()
   });

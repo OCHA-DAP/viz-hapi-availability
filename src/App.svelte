@@ -200,29 +200,29 @@
     }
   }
 
-  function getCountries(data) {
-    // get unique country codes
-    const uniqueCountryCodes = new Set();
+  // function getCountries(data) {
+  //   // get unique country codes
+  //   const uniqueCountryCodes = new Set();
 
-    data.forEach(row => {
-      const location_code = row.location_code;
-      const location_name = row.location_name;
+  //   data.forEach(row => {
+  //     const location_code = row.location_code;
+  //     const location_name = row.location_name;
 
-      // add country if country hasnt already been added
-      if (!uniqueCountryCodes.has(location_code) && location_code !== undefined) {
-        uniqueCountryCodes.add(location_code);
-        // format object for select component
-        countries.push({
-          value: location_code,
-          label: location_name,
-          group: 'countries'
-        });
-      }
-    });
+  //     // add country if country hasnt already been added
+  //     if (!uniqueCountryCodes.has(location_code) && location_code !== undefined) {
+  //       uniqueCountryCodes.add(location_code);
+  //       // format object for select component
+  //       countries.push({
+  //         value: location_code,
+  //         label: location_name,
+  //         group: 'countries'
+  //       });
+  //     }
+  //   });
 
-    //countries.unshift({value: 'HRP', label: 'Priority Humanitarian Locations', group: 'regions'});
-    return countries;
-  }
+  //   //countries.unshift({value: 'HRP', label: 'Priority Humanitarian Locations', group: 'regions'});
+  //   return countries;
+  // }
 
   function getCategories(data) {
     data.forEach(row => {
@@ -299,12 +299,6 @@
   }
 
   function onSelect(e) {
-    // console.log(e.detail)
-    // countries = [];
-    // e.detail.forEach(row => {
-    //   countries.push(row);
-    // });
-
     tableData = {};
     e.detail.forEach(country => {
       tableData[country.label] = allTableData[country.label];
@@ -315,11 +309,10 @@
     allCountries.forEach(country => {
       tableData[country.label] = allTableData[country.label];
     });
-    const sortedEntries = Object.entries(tableData)
+    const sortedData = Object.entries(tableData)
       .sort((a, b) => a[0].localeCompare(b[0]));
 
-    tableData = Object.fromEntries(sortedEntries);
-    console.log(tableData)
+    tableData = Object.fromEntries(sortedData);
   }
 
   onMount(async () => {
@@ -339,8 +332,6 @@
     countries.forEach(country => {
       tableData[country.label] = allTableData[country.label];
     });
-
-    console.log('--allTableData', Object.keys(allTableData).length)
 
     //initTracking()
   });
@@ -375,11 +366,14 @@
       </div>
     {/if}
 
-
-    <Legend />
+    {#if Object.keys(tableData).length > 0}
+      <Legend />
+    {/if}
   </div>
 
-  <Table {categories} {countries} {tableData} />
+  {#if Object.keys(tableData).length > 0}
+    <Table {categories} {countries} {tableData} />
+  {/if}
 
 </main>
 

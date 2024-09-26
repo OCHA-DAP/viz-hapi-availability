@@ -30,7 +30,46 @@ h1 {
   margin: 30px 0;
 }
 
+.admin-key {
+  display: flex;
+  flex-flow: row; 
+  justify-content: center;
+  width: 166px;
+}
+.admin-icon {
+  align-items: center;
+  background-color: #1EBFB3;
+  border-radius: 50%;
+  color: #FFF; 
+  display: flex;
+  font-family: 'Gotham-Bold';
+  font-size: 14px; 
+  font-style: normal;
+  height: 20px;
+  justify-content: center;
+  margin: 0 2px;
+  pointer-events: none;
+  width: 20px; 
+  &.hide {
+   opacity: 0;
+  }
+  /*&.national {
+    background-color: #78d9d1;
+  }
+  &.subnational1 {
+    background-color: #1EBFB3;
+  }
+  &.subnational2 {
+    background-color: #18998f;
+  }*/
+}
 
-div.multiselect {
-  width: 350px;
+i.no-data {
+  background-color: #888;
+  display: block;
+  height: 3px;
+  margin-right: 6px;
+  margin-top: 7px;
+  margin-left: 2px;
+  width: 18px;
 }

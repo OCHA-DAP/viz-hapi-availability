@@ -152,13 +152,13 @@
             <td class='fixed-col'><div class='country'>{country}</div></td>
             {#each Object.entries(subcategories) as [subcategory, hasData]}
               <td>
-                <div class='admin-key'>
+                <div class='admin-key ${subcategory}'>
                   {#if (!hasData.admin0 && !hasData.admin1 && !hasData.admin2)}
                     <div><i class='no-data'></i></div>
                   {:else}
-                    <div class={`admin-icon ${subcategory} ${hasData.admin0 ? '' : 'hide'}`}>0</div>
-                    <div class={`admin-icon ${subcategory} ${hasData.admin1 ? '' : 'hide'}`}>1</div> 
-                    <div class={`admin-icon ${subcategory} ${hasData.admin2 ? '' : 'hide'}`}>2</div>
+                    <div class={`admin-icon national ${hasData.admin0 ? '' : 'hide'}`}>0</div>
+                    <div class={`admin-icon subnational1 ${hasData.admin1 ? '' : 'hide'}`}>1</div> 
+                    <div class={`admin-icon subnational2 ${hasData.admin2 ? '' : 'hide'}`}>2</div>
                   {/if}
                 </div>
               </td>

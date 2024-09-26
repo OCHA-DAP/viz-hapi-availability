@@ -9,9 +9,9 @@
   
   <ul class='key'>
     <li>Data Coverage by Administrative Level:</li>
-    <li><i class='admin-icon'>0</i> National level</li>
-    <li><i class='admin-icon'>1</i> 1st subnational level</li>
-    <li><i class='admin-icon'>2</i> 2nd subnational level</li>
+    <li><i class='admin-icon national'>0</i> National level</li>
+    <li><i class='admin-icon subnational1'>1</i> 1st subnational level</li>
+    <li><i class='admin-icon subnational2'>2</i> 2nd subnational level</li>
     <li><i class='no-data'></i> No data</li>
   </ul>
 </div>

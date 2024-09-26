@@ -312,7 +312,14 @@
   }
 
   function onSelectClear(e) {
-    tableData = allTableData;
+    allCountries.forEach(country => {
+      tableData[country.label] = allTableData[country.label];
+    });
+    const sortedEntries = Object.entries(tableData)
+      .sort((a, b) => a[0].localeCompare(b[0]));
+
+    tableData = Object.fromEntries(sortedEntries);
+    console.log(tableData)
   }
 
   onMount(async () => {

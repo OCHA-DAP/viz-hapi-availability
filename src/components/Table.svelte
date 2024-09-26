@@ -18,7 +18,6 @@
     tableCells.forEach(cell => {
       cell.addEventListener('mouseover', function() {
         if (!cell.classList.contains('fixed-col') && cell.tagName !== 'TH') {
-          console.log('hover cell')
           highlightCells(cell);
           //showTooltip(cell);
         }
@@ -147,24 +146,26 @@
         </tr>
       </thead>
       <tbody>
-        {#each Object.entries(tableData) as [country, subcategories]}
-          <tr>
-            <td class='fixed-col'><div class='country'>{country}</div></td>
-            {#each Object.entries(subcategories) as [subcategory, hasData]}
-              <td>
-                <div class='admin-key ${subcategory}'>
-                  {#if (!hasData.admin0 && !hasData.admin1 && !hasData.admin2)}
-                    <div><i class='no-data'></i></div>
-                  {:else}
-                    <div class={`admin-icon national ${hasData.admin0 ? '' : 'hide'}`}>0</div>
-                    <div class={`admin-icon subnational1 ${hasData.admin1 ? '' : 'hide'}`}>1</div> 
-                    <div class={`admin-icon subnational2 ${hasData.admin2 ? '' : 'hide'}`}>2</div>
-                  {/if}
-                </div>
-              </td>
-            {/each}
-          </tr>
-        {/each}
+        {#if Object.keys(tableData).length > 0}
+          {#each Object.entries(tableData) as [country, subcategories]}
+            <tr>
+              <td class='fixed-col'><div class='country'>{country}</div></td>
+              {#each Object.entries(subcategories) as [subcategory, hasData]}
+                <td>
+                  <div class='admin-key ${subcategory}'>
+                    {#if (!hasData.admin0 && !hasData.admin1 && !hasData.admin2)}
+                      <div><i class='no-data'></i></div>
+                    {:else}
+                      <div class={`admin-icon national ${hasData.admin0 ? '' : 'hide'}`}>0</div>
+                      <div class={`admin-icon subnational1 ${hasData.admin1 ? '' : 'hide'}`}>1</div> 
+                      <div class={`admin-icon subnational2 ${hasData.admin2 ? '' : 'hide'}`}>2</div>
+                    {/if}
+                  </div>
+                </td>
+              {/each}
+            </tr>
+          {/each}
+        {/if}
       </tbody>
     </table>
     

@@ -6,54 +6,43 @@
   const hoverColor = '#FEF1EF';
 
   export let categories;
-  export let countries;
-  export let tableData;
+  export let currentTableData;
 
+  const sandboxBaseURL = 'https://hapi.humdata.org/docs#';
   const sandboxURL = {
-    'humanitarian-needs': 'https://hapi.humdata.org/docs#/Affected%20people/get_humanitarian_needs_api_v1_affected_people_humanitarian_needs_get',
-    'refugees': 'https://hapi.humdata.org/docs#/Affected%20people/get_refugees_api_v1_affected_people_refugees_get',
-    'conflict-event': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_conflict_events_api_v1_coordination_context_conflict_event_get',
-    'funding': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_fundings_api_v1_coordination_context_funding_get',
-    'national-risk': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_national_risks_api_v1_coordination_context_national_risk_get',
-    'operational-presence': 'https://hapi.humdata.org/docs#/Coordination%20%26%20Context/get_operational_presences_api_v1_coordination_context_operational_presence_get',
-    'food-price': 'https://hapi.humdata.org/docs#/Food%20Security%20%26%20Nutrition/get_food_prices_api_v1_food_food_price_get',
-    'food-security': 'https://hapi.humdata.org/docs#/Food%20Security%20%26%20Nutrition/get_food_security_api_v1_food_food_security_get',
-    'population': 'https://hapi.humdata.org/docs#/Population%20%26%20Socio-Economy/get_populations_api_v1_population_social_population_get',
-    'poverty-rate': 'https://hapi.humdata.org/docs#/Population%20%26%20Socio-Economy/get_poverty_rates_api_v1_population_social_poverty_rate_get'
+    'humanitarian-needs': `${sandboxBaseURL}/Affected%20people/get_humanitarian_needs_api_v1_affected_people_humanitarian_needs_get`,
+    'refugees': `${sandboxBaseURL}/Affected%20people/get_refugees_api_v1_affected_people_refugees_get`,
+    'conflict-event': `${sandboxBaseURL}/Coordination%20%26%20Context/get_conflict_events_api_v1_coordination_context_conflict_event_get`,
+    'funding': `${sandboxBaseURL}/Coordination%20%26%20Context/get_fundings_api_v1_coordination_context_funding_get`,
+    'national-risk': `${sandboxBaseURL}/Coordination%20%26%20Context/get_national_risks_api_v1_coordination_context_national_risk_get`,
+    'operational-presence': `${sandboxBaseURL}/Coordination%20%26%20Context/get_operational_presences_api_v1_coordination_context_operational_presence_get`,
+    'food-price': `${sandboxBaseURL}/Food%20Security%20%26%20Nutrition/get_food_prices_api_v1_food_food_price_get`,
+    'food-security': `${sandboxBaseURL}/Food%20Security%20%26%20Nutrition/get_food_security_api_v1_food_food_security_get`,
+    'population': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_populations_api_v1_population_social_population_get`,
+    'poverty-rate': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_poverty_rates_api_v1_population_social_poverty_rate_get`
   }
 
-  function initEvents() {
-    // get table elements
-    table = document.getElementById('coverageTable');
-    tableCells = document.querySelectorAll('#coverageTable td, #coverageTable th');
+  function onMouseover(e) {
+    const cell = event.target;
+    if (cell.classList.contains('cell') && !cell.classList.contains('fixed-col') && cell.tagName !== 'TH') {
+      highlightCells(cell);
+      //showTooltip(cell);
+    }
+    else {
+      //hideTooltip();
+    }
+  }
 
-    // assign mouse events
-    tableCells.forEach(cell => {
-      cell.addEventListener('mouseover', function() {
-        if (!cell.classList.contains('fixed-col') && cell.tagName !== 'TH') {
-          highlightCells(cell);
-          //showTooltip(cell);
-        }
-        else {
-          //hideTooltip();
-        }
-      });
-
-      cell.addEventListener('mouseout', function() {
-        resetCells();
-      });
-    });
-
-    // Add an event listener for the scroll event
-    tableWrapper.addEventListener('scroll', (event) => {
-      tooltip.style.opacity = 0;
-    });
+  function onMouseout() {
+    resetCells();
   }
 
   function highlightCells(cell) {
     // highlight hovered cell and cells to left and above
-    // get current cell position
+    tableCells = document.querySelectorAll('#coverageTable td, #coverageTable th');
     const row = cell.parentElement;
+
+    // get current cell position
     const rowIndex = Array.from(table.rows).indexOf(row);
     const cellIndex = Array.from(row.cells).indexOf(cell);
 
@@ -111,7 +100,7 @@
   }
 
   onMount(async () => {
-    countries.shift();
+    table = document.getElementById('coverageTable');
 
     // set table height equal to available screen height
     tableWrapper = document.querySelector('.table-wrapper');
@@ -120,8 +109,10 @@
     // create tooltip
     tooltip = document.querySelector('.tooltip');
 
-    // init hover events
-    if (Object.keys(tableData).length > 0) initEvents();
+    // add event listener for the scroll event
+    // tableWrapper.addEventListener('scroll', (event) => {
+    //   tooltip.style.opacity = 0;
+    // });
   });
 </script>
 
@@ -149,11 +140,11 @@
         </tr>
       </thead>
       <tbody>
-        {#each Object.entries(tableData) as [country, subcategories]}
+        {#each Object.entries(currentTableData) as [country, subcategories]}
           <tr>
             <td class='fixed-col'><div class='country'>{country}</div></td>
             {#each Object.entries(subcategories) as [subcategory, hasData]}
-              <td>
+              <td class='cell' on:mouseover={onMouseover} on:mouseout={onMouseout}>
                 <div class='admin-key ${subcategory}'>
                   {#if (!hasData.admin0 && !hasData.admin1 && !hasData.admin2)}
                     <div><i class='no-data'></i></div>

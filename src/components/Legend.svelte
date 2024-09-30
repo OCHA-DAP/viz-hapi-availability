@@ -1,12 +1,7 @@
 <script>
-  import { onMount } from 'svelte';
-
-  onMount(async () => {
-  });
 </script>
 
 <div class='legend'>
-  
   <ul class='key'>
     <li>Data Coverage by Administrative Level:</li>
     <li><i class='admin-icon national'>0</i> National level</li>

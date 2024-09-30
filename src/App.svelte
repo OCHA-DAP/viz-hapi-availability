@@ -6,14 +6,17 @@
   import Legend from './components/Legend.svelte';
   import Table from './components/Table.svelte';
 
-
   $: currentTableData = {}
+  
+  let onlyHRP = true;
 
   let categories = {}
   let allCategories = []
   let countries = []
+  let hrpCountries = []
   let allCountries = []
   let allTableData = {}
+
 
   const groupBy = (item) => item.group;
 
@@ -39,16 +42,21 @@
       let hrpCountries = [];
       parsedData.data.forEach(row => {
         if (row.has_hrp === 'True') {
-          hrpCountries.push({
-            value: row.code,
-            label: row.name,
-            //group: 'countries'
-          });
+          hrpCountries.push(row.code);
         }
       });
+      // parsedData.data.forEach(row => {
+      //   if (row.has_hrp === 'True') {
+      //     hrpCountries.push({
+      //       value: row.code,
+      //       label: row.name,
+      //       //group: 'countries'
+      //     });
+      //   }
+      // });
 
-      // save list of all countries
-      allCountries = hrpCountries;
+      // // save list of all countries
+      // allCountries = hrpCountries;
 
       return hrpCountries;
 
@@ -150,7 +158,7 @@
         });
       }
     });
-    
+
     allCountries = countries;
 
     //countries.unshift({value: 'HRP', label: 'Priority Humanitarian Locations', group: 'regions'});
@@ -231,6 +239,23 @@
     return sortedAdminLevels;
   }
 
+  function filterCountries() {
+    // Filter the countries based on the value of onlyHRP
+    countries = (onlyHRP) ? allCountries.filter(country => hrpCountries.includes(country.value)) : allCountries;
+
+    // Sort countries alphabetically
+    countries.sort((a, b) => a.label.localeCompare(b.label));
+
+    // Reset table data to match filtered countries
+    currentTableData = {};
+    countries.forEach(country => {
+      currentTableData[country.label] = allTableData[country.label];
+    });
+
+    // Trigger the select dropdown to update with the filtered countries
+    updateSelectComponent();
+  }
+
   function onCountrySelect(e) {
     currentTableData = {};
     e.detail.forEach(country => {
@@ -246,6 +271,11 @@
       .sort((a, b) => a[0].localeCompare(b[0]));
 
     currentTableData = Object.fromEntries(sortedData);
+  }
+
+  function onHRP(e) {
+    onlyHRP = e.target.checked;
+    filterCountries();
   }
 
   function onCategorySelect(e) {
@@ -267,7 +297,8 @@
     let data = await getTableData();
     console.log(data)
 
-    //countries = await fetchCountryData();
+    // get list of hrp countries
+    hrpCountries = await fetchCountryData();
 
     countries = getCountries(data);
     countries.sort((a, b) => a.label.localeCompare(b.label));
@@ -278,11 +309,12 @@
     })
     //console.log(categories)
 
-
     allTableData = getAdminLevels(data);
     countries.forEach(country => {
       currentTableData[country.label] = allTableData[country.label];
     });
+
+    filterCountries();
 
     //initTracking()
   });
@@ -299,9 +331,10 @@
     {#if countries.length>0}
       <div class='select-wrapper'>
         <label>Filter by:</label>
+        <label><input type='checkbox' checked={onlyHRP} on:change={onHRP}> Priority Humanitarian Locations only</label>
         <div class='select-group'>
           <Select 
-            items={allCountries} 
+            items={countries} 
             clearable
             multiple
             multiFullItemClearable
@@ -355,7 +388,7 @@
     --border: 1px solid #CCC;    
     --border-focused: 1px solid #007CE0;
     --border-hover: 1px solid #007CE0;
-    --margin: 0 10px 0 0;
+    --margin: 5px 10px 0 0;
     --item-hover-bg: #CCE5F9;
     --list-border: 1px solid #EEE;
   }

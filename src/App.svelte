@@ -17,6 +17,9 @@
   let allCountries = []
   let allTableData = {}
 
+  let selectPlaceholder = 'All Priority Humanitarian Countries';
+  $: selectValue = 'Afghanistan';
+
 
   const groupBy = (item) => item.group;
 
@@ -240,20 +243,22 @@
   }
 
   function filterCountries() {
-    // Filter the countries based on the value of onlyHRP
+    selectValue = null;
+
+    // dilter countries based on value of onlyHRP
     countries = (onlyHRP) ? allCountries.filter(country => hrpCountries.includes(country.value)) : allCountries;
 
-    // Sort countries alphabetically
+    // update select placeholder text
+    selectPlaceholder = (onlyHRP) ? 'All Priority Humanitarian Countries' : 'All Countries';
+
+    // sort countries alphabetically
     countries.sort((a, b) => a.label.localeCompare(b.label));
 
-    // Reset table data to match filtered countries
+    // reset table data to match filtered countries
     currentTableData = {};
     countries.forEach(country => {
       currentTableData[country.label] = allTableData[country.label];
     });
-
-    // Trigger the select dropdown to update with the filtered countries
-    updateSelectComponent();
   }
 
   function onCountrySelect(e) {
@@ -263,26 +268,21 @@
     });
   }
 
-  function onCountryClear(e) {
-    allCountries.forEach(country => {
-      currentTableData[country.label] = allTableData[country.label];
-    });
-    const sortedData = Object.entries(currentTableData)
-      .sort((a, b) => a[0].localeCompare(b[0]));
+  function onCountryClear() {
+    filterCountries();
+    // allCountries.forEach(country => {
+    //   currentTableData[country.label] = allTableData[country.label];
+    // });
+    // const sortedData = Object.entries(currentTableData)
+    //   .sort((a, b) => a[0].localeCompare(b[0]));
 
-    currentTableData = Object.fromEntries(sortedData);
+    // currentTableData = Object.fromEntries(sortedData);
   }
 
   function onHRP(e) {
     onlyHRP = e.target.checked;
+    selectValue = null;
     filterCountries();
-  }
-
-  function onCategorySelect(e) {
-    console.log(currentTableData)
-  }
-
-  function onCategoryClear(e) {
   }
 
   function formatStr(str) {
@@ -295,28 +295,28 @@
   onMount(async () => {
     // get table data
     let data = await getTableData();
-    console.log(data)
 
     // get list of hrp countries
     hrpCountries = await fetchCountryData();
 
+    // get list of countries
     countries = getCountries(data);
     countries.sort((a, b) => a.label.localeCompare(b.label));
     
+    // get categories
     categories = getCategories(data);
     Object.entries(categories).forEach(category => {
       allCategories.push({value: category[0], label: formatStr(category[0])})
     })
-    //console.log(categories)
 
+    // format data for coverage table
     allTableData = getAdminLevels(data);
     countries.forEach(country => {
       currentTableData[country.label] = allTableData[country.label];
     });
 
+    // filter initial list of countries
     filterCountries();
-
-    //initTracking()
   });
 </script>
 
@@ -331,28 +331,19 @@
     {#if countries.length>0}
       <div class='select-wrapper'>
         <label>Filter by:</label>
-        <label><input type='checkbox' checked={onlyHRP} on:change={onHRP}> Priority Humanitarian Locations only</label>
+        <label><input type='checkbox' checked={onlyHRP} on:change={onHRP}> Priority Humanitarian Countries only</label>
         <div class='select-group'>
           <Select 
             items={countries} 
+            bind:value={selectValue}
             clearable
             multiple
             multiFullItemClearable
-            placeholder='Country'
+            placeholder='{selectPlaceholder}'
             showChevron
             on:change={onCountrySelect}
             on:clear={onCountryClear}
-          /><!--value="Priority Humanitarian Locations" {groupBy}-->
-<!--           <Select 
-            items={allCategories}
-            clearable
-            multiple
-            multiFullItemClearable
-            placeholder='Category'
-            showChevron
-            on:change={onCategorySelect}
-            on:clear={onCategoryClear}
-          /> -->
+          />
         </div>
       </div>
     {/if}

@@ -11,7 +11,9 @@
   const sandboxBaseURL = 'https://hapi.humdata.org/docs#';
   const sandboxURL = {
     'humanitarian-needs': `${sandboxBaseURL}/Affected%20people/get_humanitarian_needs_api_v1_affected_people_humanitarian_needs_get`,
+    'idps': `${sandboxBaseURL}/Affected%20people/get_idps_api_v1_affected_people_idps_get`,
     'refugees': `${sandboxBaseURL}/Affected%20people/get_refugees_api_v1_affected_people_refugees_get`,
+    'returnees': `${sandboxBaseURL}/Affected%20people/get_returnees_api_v1_affected_people_returnees_get`,
     'conflict-event': `${sandboxBaseURL}/Coordination%20%26%20Context/get_conflict_events_api_v1_coordination_context_conflict_event_get`,
     'funding': `${sandboxBaseURL}/Coordination%20%26%20Context/get_fundings_api_v1_coordination_context_funding_get`,
     'national-risk': `${sandboxBaseURL}/Coordination%20%26%20Context/get_national_risks_api_v1_coordination_context_national_risk_get`,

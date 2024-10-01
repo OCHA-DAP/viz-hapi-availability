@@ -6,115 +6,51 @@
   import Legend from './components/Legend.svelte';
   import Table from './components/Table.svelte';
 
-  $: currentTableData = {}
   
-  let onlyHRP = true;
-
   let categories = {}
-  let allCategories = []
   let countries = []
   let hrpCountries = []
+
+  let allCategories = []
   let allCountries = []
   let allTableData = {}
 
+  let onlyHRP = true;
   let selectPlaceholder = 'All Priority Humanitarian Countries';
-  $: selectValue = 'Afghanistan';
+
+  $: currentTableData = {}
+  $: selectValue = null;
 
 
-  const groupBy = (item) => item.group;
-
-  const base_url = 'https://demo.hapi-humdata-org.ahconu.org/api/v1';//https://hapi.humdata.org/api/v1/';
+  const base_url = 'https://hapi.humdata.org/api/v1/';
   const app_indentifier = 'aGFwaS1kYXNoYm9hcmQ6ZXJpa2Eud2VpQHVuLm9yZw==';
 
+
+  // get country data from metadata endpoint
   async function fetchCountryData() {
     const url = `${base_url}/metadata/location?app_identifier=${app_indentifier}&offset=0&output_format=csv&limit=10000`;
-
     try {
       const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-
       const csvText = await response.text();
-      const parsedData = Papa.parse(csvText, {
-        header: true,
-        skipEmptyLines: true,
-        dynamicTyping: true
-      });
+      const parsedData = Papa.parse(csvText, {header: true, skipEmptyLines: true, dynamicTyping: true });
 
-      let hrpCountries = [];
-      parsedData.data.forEach(row => {
-        if (row.has_hrp === 'True') {
-          hrpCountries.push(row.code);
-        }
-      });
-      // parsedData.data.forEach(row => {
-      //   if (row.has_hrp === 'True') {
-      //     hrpCountries.push({
-      //       value: row.code,
-      //       label: row.name,
-      //       //group: 'countries'
-      //     });
-      //   }
-      // });
-
-      // // save list of all countries
-      // allCountries = hrpCountries;
-
-      return hrpCountries;
-
+      // only return hrp countries
+      return parsedData.data.filter(row => row.has_hrp === 'True').map(row => row.code);
     } catch (error) {
       console.error('Error fetching and parsing CSV data:', error);
       return null;
     }
   }
 
-  // async function fetchCategoryData() {
-  //   const url = 'https://hapi.humdata.org/openapi.json';
-    
-  //   try {
-  //     const response = await fetch(url);
-  //     const data = await response.json();
-  //     const paths = data.paths;
-
-  //     // parse out the category and subcategory data from the paths key
-  //     Object.keys(paths).forEach((path) => {
-  //       const segments = path.split('/').filter(Boolean); 
-
-  //       if (segments.length >= 3 && segments[0] === 'api' && segments[1] === 'v1') {
-  //         const category = segments[2]; // cat is 3rd segment
-  //         const subcategory = segments[3] || 'None'; // subcat is 4th segment
-
-  //         // ignore "encode_app_identifier", "metadata", "util"
-  //         if (['metadata', 'util', 'encode_app_identifier'].includes(category)) {
-  //           return;
-  //         }
-
-  //         // build categories dict
-  //         if (!categories[category]) {
-  //           categories[category] = []; 
-  //         }
-
-  //         // add subcategory if not "None" and not already in array
-  //         if (subcategory !== 'None' && !categories[category].includes(subcategory)) {
-  //           categories[category].push(subcategory);
-  //         }
-  //       }
-  //     });
-  //   } catch (error) {
-  //     console.error('Error fetching or parsing the data:', error);
-  //   }
-  // }
-
+  // get data from data availability endpoint
   async function getTableData() {
     let data = [];
     let offset = 0;
     let fetchedData;
 
-    //data pagination
     do {
       let endpoint = `${base_url}/metadata/data-availability?output_format=csv&app_identifier=${app_indentifier}&offset=${offset}&limit=10000`
-      fetchedData = await fetchTableData(endpoint);
+      fetchedData = await fetchTablePageData(endpoint);
       data = data.concat(fetchedData);
       offset += 10000;
     } while (fetchedData.length >= 10000);
@@ -122,7 +58,8 @@
     return data;
   }
 
-  async function fetchTableData(endpoint) {
+  // get data by page (max 10000 results returned in each query)
+  async function fetchTablePageData(endpoint) {
     try {
       const response = await fetch(endpoint);
       const text = await response.text();
@@ -142,38 +79,24 @@
     }
   }
 
+
+  // get unique list of countries from data availability results and format for select component
   function getCountries(data) {
-    // get unique country codes
     const uniqueCountryCodes = new Set();
-
-    data.forEach(row => {
-      const location_code = row.location_code;
-      const location_name = row.location_name;
-
-      // add country if country hasnt already been added
-      if (!uniqueCountryCodes.has(location_code) && location_code !== undefined) {
-        uniqueCountryCodes.add(location_code);
-        // format object for select component
-        countries.push({
-          value: location_code,
-          label: location_name,
-          group: 'countries'
-        });
+    allCountries = data.reduce((acc, row) => {
+      if (!uniqueCountryCodes.has(row.location_code) && row.location_code) {
+        uniqueCountryCodes.add(row.location_code);
+        acc.push({ value: row.location_code, label: row.location_name });
       }
-    });
-
-    allCountries = countries;
-
-    //countries.unshift({value: 'HRP', label: 'Priority Humanitarian Locations', group: 'regions'});
-    return countries;
+      return acc;
+    }, []);
+    return allCountries;
   }
 
+  // get categories and subcategories from data availability results
   function getCategories(data) {
-    data.forEach(row => {
-      if (row.category !== '') {
-        const category = row.category;
-        const subcategory = row.subcategory;
-
+    data.forEach(({ category, subcategory }) => {
+      if (category !== '') {
         // if category doesn't exist, create a new array
         if (!categories[category]) {
           categories[category] = [];
@@ -185,19 +108,19 @@
         }
       }
     });
-
     return categories;
   }
 
+
+  // get admin availability for each subcategory
   function getAdminLevels(data) {
+    // dict to store admin level availability data
     const adminLevels = {};
-    const allSubcategories = new Set();
 
-    // get unique subcategories
-    data.forEach(row => {
-      allSubcategories.add(row.subcategory);
-    });
+    // get unique subcategories from data availability results
+    const allSubcategories = new Set(data.map(row => row.subcategory));
 
+    // extract data and format for table
     data.forEach(row => {
       if (row.location_name !== undefined) {        
         const { location_name, subcategory, admin1_name, admin2_name } = row;
@@ -242,55 +165,80 @@
     return sortedAdminLevels;
   }
 
-  function filterCountries() {
+
+  function setCountries() {
+    // reset select component
     selectValue = null;
-
-    // dilter countries based on value of onlyHRP
-    countries = (onlyHRP) ? allCountries.filter(country => hrpCountries.includes(country.value)) : allCountries;
-
-    // update select placeholder text
     selectPlaceholder = (onlyHRP) ? 'All Priority Humanitarian Countries' : 'All Available Countries';
+
+    // filter countries based on value of onlyHRP checkbox
+    countries = (onlyHRP) ? allCountries.filter(country => hrpCountries.includes(country.value)) : allCountries;
 
     // sort countries alphabetically
     countries.sort((a, b) => a.label.localeCompare(b.label));
 
     // reset table data to match filtered countries
-    currentTableData = {};
-    countries.forEach(country => {
-      currentTableData[country.label] = allTableData[country.label];
-    });
+    currentTableData = countries.reduce((acc, country) => {
+      acc[country.label] = allTableData[country.label];
+      return acc;
+    }, {});
   }
 
+  // event handlers
   function onCountrySelect(e) {
-    currentTableData = {};
-    e.detail.forEach(country => {
-      currentTableData[country.label] = allTableData[country.label];
-    });
-  }
+    currentTableData = e.detail.reduce((acc, country) => {
+      acc[country.label] = allTableData[country.label];
+      return acc;
+    }, {});
 
+    // send mixpanel event
+    mpTrack();
+  }
   function onCountryClear() {
-    filterCountries();
-    // allCountries.forEach(country => {
-    //   currentTableData[country.label] = allTableData[country.label];
-    // });
-    // const sortedData = Object.entries(currentTableData)
-    //   .sort((a, b) => a[0].localeCompare(b[0]));
-
-    // currentTableData = Object.fromEntries(sortedData);
+    setCountries();
   }
-
   function onHRP(e) {
     onlyHRP = e.target.checked;
-    selectValue = null;
-    filterCountries();
+    setCountries();
+
+    // send mixpanel event
+    mpTrack();
   }
 
+  // helper function to format strings for display
   function formatStr(str) {
     return str
       .split('-')
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
   }
+
+
+  function initTracking() {
+    // initialize mixpanel
+    var MIXPANEL_TOKEN = window.location.hostname=='data.humdata.org'? '5cbf12bc9984628fb2c55a49daf32e74' : '99035923ee0a67880e6c05ab92b6cbc0';
+    mixpanel.init(MIXPANEL_TOKEN);
+    mixpanel.track('page view', {
+      'page title': document.title,
+      'page type': 'datavis'
+    });
+  }
+
+  function mpTrack() {
+    // mixpanel event
+    let eventObject = {
+      'action': 'switch viz',
+      'content': 'filtered',
+      'country filter': (selectValue === null) ? selectPlaceholder : selectValue.map(item => item.label),
+      'current view': 'table view',
+      'embedded in': window.location.href,
+      'page title': document.title,
+      'is hrp filter': onlyHRP,
+      'viz type': 'hapi coverage table'
+    }
+    mixpanel.track('viz interaction', eventObject);
+  }
+
 
   onMount(async () => {
     // get table data
@@ -301,22 +249,23 @@
 
     // get list of countries
     countries = getCountries(data);
-    countries.sort((a, b) => a.label.localeCompare(b.label));
     
     // get categories
     categories = getCategories(data);
+
+    // *todo: add category select filter
     Object.entries(categories).forEach(category => {
       allCategories.push({value: category[0], label: formatStr(category[0])})
     })
 
     // format data for coverage table
     allTableData = getAdminLevels(data);
-    countries.forEach(country => {
-      currentTableData[country.label] = allTableData[country.label];
-    });
 
-    // filter initial list of countries
-    filterCountries();
+    // set initial list of countries to show only hrp by default
+    setCountries();
+
+    // mixpanel tracking
+    initTracking();
   });
 </script>
 

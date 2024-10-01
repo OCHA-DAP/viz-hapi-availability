@@ -249,7 +249,7 @@
     countries = (onlyHRP) ? allCountries.filter(country => hrpCountries.includes(country.value)) : allCountries;
 
     // update select placeholder text
-    selectPlaceholder = (onlyHRP) ? 'All Priority Humanitarian Countries' : 'All Countries';
+    selectPlaceholder = (onlyHRP) ? 'All Priority Humanitarian Countries' : 'All Available Countries';
 
     // sort countries alphabetically
     countries.sort((a, b) => a.label.localeCompare(b.label));

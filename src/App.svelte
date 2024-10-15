@@ -272,8 +272,8 @@
 
 <main>  
   <div class='header'>
-    <h1>HAPI Location and Indicator Coverage</h1>
-    <p>This table displays the available data by administrative level for each indicator and country included in HAPI.</p>
+    <h1>HAPI Data Availability</h1>
+    <p>This table displays the available data by administrative level for each sub-category and country included in HAPI.</p>
   </div>
 
   <div class='subheader'>

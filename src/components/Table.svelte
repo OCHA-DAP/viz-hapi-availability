@@ -208,6 +208,7 @@
     background-color: #FFF;
     font-family: 'Gotham-Bold';
     font-size: 14px;
+    font-weight: 400;
     line-height: 16px;
     position: sticky;
     padding: 10px 12px;
@@ -239,6 +240,7 @@
     background-color: #FFF;
     font-family: 'Gotham-Bold';
     font-size: 14px;
+    font-weight: 400;
     line-height: 18px;
     left: 0;
     position: -webkit-sticky;
@@ -263,7 +265,7 @@
   .gradient-overlay {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
     bottom: 0;
-    right: 0;
+    right: 15px;
     top: 0;
     pointer-events: none;
     position: absolute;

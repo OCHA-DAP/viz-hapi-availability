@@ -166,7 +166,7 @@
     <div class='tooltip'>tooltip here</div>
   </div>
 
-  <div class='gradient-overlay'></div>
+  <!-- <div class='gradient-overlay'></div> -->
 </div>
 
 

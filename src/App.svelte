@@ -306,6 +306,11 @@
     <Table {categories} {currentTableData} />
   {/if}
 
+  <div class='loader'>
+    <div class="sp sp-circle"></div>
+    <span>Loading data...</span>
+  </div>
+
 </main>
 
 <style>

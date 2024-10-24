@@ -102,6 +102,10 @@
   }
 
   onMount(async () => {
+    // remove loader
+    let loader = document.querySelector('.loader');
+    if (loader) loader.remove();
+
     table = document.getElementById('coverageTable');
 
     // set table height equal to available screen height
@@ -187,7 +191,6 @@
     border: 0;
     border-collapse: separate;
     border-spacing: 0;
-    margin-right: 50px;
     width: 100%;
   }
 

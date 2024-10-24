@@ -318,6 +318,9 @@
     margin-bottom: 30px;
     text-align: center;
   }
+  .header p {
+    font-size: 20px;
+  }
   .subheader {
     display: flex;
     justify-content: space-between;

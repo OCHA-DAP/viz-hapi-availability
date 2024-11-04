@@ -21,6 +21,27 @@
   $: currentTableData = {}
   $: selectValue = null;
 
+  const categoryLabels = {
+    'affected-people': 'Affected People',
+    'coordination-context': 'Coordination & Context',
+    'food': 'Food Security & Nutrition',
+    'population-social': 'Population & Socio-economy'
+  };
+
+  const subcategoryLabels = {
+    'humanitarian-needs': 'Humanitarian Needs',
+    'idps': 'Internally-Displaced Persons',
+    'refugees': 'Refugees & Persons Of Concern',
+    'returnees': 'Returnees',
+    'conflict-event': 'Conflict Events',
+    'funding': 'Funding',
+    'national-risk': 'National Risk',
+    'operational-presence': 'Who Is Doing What Where - Operational Presence',
+    'food-security': 'Food Security',
+    'food-price': 'Food Prices',
+    'population': 'Baseline Population',
+    'poverty-rate': 'Poverty Rate'
+  };
 
   const base_url = 'https://hapi.humdata.org/api/v1/';//'https://demo.hapi-humdata-org.ahconu.org/api/v1/';
   const app_indentifier = 'aGFwaS1kYXNoYm9hcmQ6ZXJpa2Eud2VpQHVuLm9yZw==';
@@ -94,17 +115,41 @@
   }
 
   // get categories and subcategories from data availability results
+  // function getCategories(data) {
+  //   data.forEach(({ category, subcategory }) => {
+  //     if (category !== '') {
+  //       // if category doesn't exist, create a new array
+  //       if (!categories[category]) {
+  //         categories[category] = [];
+  //       }
+
+  //       // add subcategory if hasnt already been added
+  //       if (!categories[category].includes(subcategory)) {
+  //         categories[category].push(subcategory);
+  //       }
+  //     }
+  //   });
+  //   return categories;
+  // }
+
+  // get categories and subcategories from data availability results
   function getCategories(data) {
     data.forEach(({ category, subcategory }) => {
       if (category !== '') {
+        // get label from mapping
+        const categoryName = categoryLabels[category] || category;
+        
         // if category doesn't exist, create a new array
-        if (!categories[category]) {
-          categories[category] = [];
+        if (!categories[categoryName]) {
+          categories[categoryName] = [];
         }
 
-        // add subcategory if hasnt already been added
-        if (!categories[category].includes(subcategory)) {
-          categories[category].push(subcategory);
+        // get label from mapping
+        const subcategoryName = subcategoryLabels[subcategory] || subcategory;
+
+        // add subcategory if hasn't already been added
+        if (!categories[categoryName].includes(subcategoryName)) {
+          categories[categoryName].push(subcategoryName);
         }
       }
     });

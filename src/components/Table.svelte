@@ -17,11 +17,11 @@
     'conflict-event': `${sandboxBaseURL}/Coordination%20%26%20Context/get_conflict_events_api_v1_coordination_context_conflict_event_get`,
     'funding': `${sandboxBaseURL}/Coordination%20%26%20Context/get_fundings_api_v1_coordination_context_funding_get`,
     'national-risk': `${sandboxBaseURL}/Coordination%20%26%20Context/get_national_risks_api_v1_coordination_context_national_risk_get`,
-    'operational-presence': `${sandboxBaseURL}/Coordination%20%26%20Context/get_operational_presences_api_v1_coordination_context_operational_presence_get`,
-    'food-price': `${sandboxBaseURL}/Food%20Security%20%26%20Nutrition/get_food_prices_api_v1_food_food_price_get`,
+    'operational-presence': `${sandboxBaseURL}/Coordination%20%26%20Context/get_operational_presence_api_v1_coordination_context_operational_presence_get`,
+    'food-price': `${sandboxBaseURL}/Food%20Security%20%26%20Nutrition/get_food_price_api_v1_food_food_price_get`,
     'food-security': `${sandboxBaseURL}/Food%20Security%20%26%20Nutrition/get_food_security_api_v1_food_food_security_get`,
-    'population': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_populations_api_v1_population_social_population_get`,
-    'poverty-rate': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_poverty_rates_api_v1_population_social_poverty_rate_get`
+    'population': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_population_api_v1_population_social_population_get`,
+    'poverty-rate': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_poverty_rate_api_v1_population_social_poverty_rate_get`
   }
 
   function onMouseover(e) {

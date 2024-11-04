@@ -129,14 +129,14 @@
         <tr>
           <th class='fixed-col category'></th>
           {#each Object.entries(categories) as [category, subcategories]}
-            <th class='category' colspan={subcategories.length}>{formatStr(category)}</th>
+            <th class='category' colspan={subcategories.length}>{category}</th>
           {/each}
         </tr>
         <tr>
           <th class='fixed-col'></th>
           {#each Object.entries(categories) as [category, subcategories]}
             {#each subcategories as subcategory}
-              <th>{formatStr(subcategory)}<br>
+              <th>{subcategory}<br>
                 <span>
                   <a href={(sandboxURL[subcategory] !== undefined) ? sandboxURL[subcategory] : 'https://hapi.humdata.org/docs#/'} target='_blank'>Go to API Sandbox</a>
                 </span>

@@ -15,14 +15,14 @@
   let allCountries = []
   let allTableData = {}
 
-  let onlyHRP = true;
+  let onlyHRP = false;
   let selectPlaceholder = 'All Priority Humanitarian Countries';
 
   $: currentTableData = {}
   $: selectValue = null;
 
 
-  const base_url = 'https://hapi.humdata.org/api/v1/';
+  const base_url = 'https://hapi.humdata.org/api/v1/';//'https://demo.hapi-humdata-org.ahconu.org/api/v1/';
   const app_indentifier = 'aGFwaS1kYXNoYm9hcmQ6ZXJpa2Eud2VpQHVuLm9yZw==';
 
 
@@ -161,7 +161,6 @@
           sortedObj[location_name] = adminLevels[location_name];
           return sortedObj;
       }, {});
-
     return sortedAdminLevels;
   }
 

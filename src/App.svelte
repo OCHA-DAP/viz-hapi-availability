@@ -316,8 +316,10 @@
 
 <main>  
   <div class='header'>
-    <h1>HAPI Data Availability</h1>
-    <p>This table displays the available data by administrative level for each subcategory and country included in HAPI.</p>
+    <h1>Data Availability in HDX HAPI</h1>
+    <p>The initial release of HDX HAPI in June 2024 followed the <a href='https://data.humdata.org/dashboards/overview-of-data-grids' target='_blank'>HDX Data Grids</a>, which brings together the most relevant crisis data across 20+ priority humanitarian operations. As of November 2024, geographic coverage has been expanded to include all countries where data is available. The level of disaggregation varies by data type and country.</p>
+    <p>A live list of HDX HAPI data providers is available here: <a href='https://tinyurl.com/hapi-providers' target='_blank'>https://tinyurl.com/hapi-providers</a>.</p>
+    <p>This table below displays the available data by administrative level for each subcategory and country included in HDX HAPI. Refer to the <a href='https://hdx-hapi.readthedocs.io/en/latest/' target='_blank'>documentation</a> for more detailed information about each of the subcategories. <a href='mailto:hdx@un.org'>Contact us</a> to request additional data types in future versions of HDX HAPI.</p>
   </div>
 
   <div class='subheader'>
@@ -359,11 +361,13 @@
 
 <style>
   .header {
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
     text-align: center;
+    width: 75%;
   }
   .header p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .subheader {
     display: flex;

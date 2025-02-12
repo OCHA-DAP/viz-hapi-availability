@@ -24,26 +24,26 @@
   const categoryLabels = {
     'affected-people': 'Affected People',
     'coordination-context': 'Coordination & Context',
-    'food': 'Food Security & Nutrition',
-    'population-social': 'Population & Socio-economy'
+    'food-security-nutrition-poverty': 'Food Security, Nutrition & Poverty',
+    'geography-infrastructure': 'Geography & Infrastructure'
   };
 
   const subcategoryLabels = {
     'humanitarian-needs': 'Humanitarian Needs',
     'idps': 'Internally-Displaced Persons',
-    'refugees': 'Refugees & Persons Of Concern',
+    'refugees-persons-of-concern': 'Refugees & Persons of Concern',
     'returnees': 'Returnees',
-    'conflict-event': 'Conflict Events',
+    'conflict-events': 'Conflict Events',
     'funding': 'Funding',
     'national-risk': 'National Risk',
     'operational-presence': 'Who Is Doing What Where - Operational Presence',
+    'food-prices-market-monitor': 'Food Prices',
     'food-security': 'Food Security',
-    'food-price': 'Food Prices',
-    'population': 'Baseline Population',
-    'poverty-rate': 'Poverty Rate'
+    'poverty-rate': 'Poverty Rate',
+    'baseline-population': 'Baseline Population'
   };
 
-  const base_url = 'https://hapi.humdata.org/api/v1/';//'https://demo.hapi-humdata-org.ahconu.org/api/v1/';
+  const base_url = 'https://feature.hapi-humdata-org.ahconu.org/api/v2/';//https://hapi.humdata.org/api/v1/';
   const app_indentifier = 'aGFwaS1kYXNoYm9hcmQ6ZXJpa2Eud2VpQHVuLm9yZw==';
 
 

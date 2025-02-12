@@ -8,20 +8,22 @@
   export let categories;
   export let currentTableData;
 
-  const sandboxBaseURL = 'https://hapi.humdata.org/docs#';
+  console.log(categories)
+
+  const sandboxBaseURL = 'https://feature.hapi-humdata-org.ahconu.org/docs#';//https://hapi.humdata.org/docs#';
   const sandboxURL = {
-    'humanitarian-needs': `${sandboxBaseURL}/Affected%20people/get_humanitarian_needs_api_v1_affected_people_humanitarian_needs_get`,
-    'idps': `${sandboxBaseURL}/Affected%20people/get_idps_api_v1_affected_people_idps_get`,
-    'refugees': `${sandboxBaseURL}/Affected%20people/get_refugees_api_v1_affected_people_refugees_get`,
-    'returnees': `${sandboxBaseURL}/Affected%20people/get_returnees_api_v1_affected_people_returnees_get`,
-    'conflict-event': `${sandboxBaseURL}/Coordination%20%26%20Context/get_conflict_events_api_v1_coordination_context_conflict_event_get`,
-    'funding': `${sandboxBaseURL}/Coordination%20%26%20Context/get_fundings_api_v1_coordination_context_funding_get`,
-    'national-risk': `${sandboxBaseURL}/Coordination%20%26%20Context/get_national_risks_api_v1_coordination_context_national_risk_get`,
-    'operational-presence': `${sandboxBaseURL}/Coordination%20%26%20Context/get_operational_presence_api_v1_coordination_context_operational_presence_get`,
-    'food-price': `${sandboxBaseURL}/Food%20Security%20%26%20Nutrition/get_food_price_api_v1_food_food_price_get`,
-    'food-security': `${sandboxBaseURL}/Food%20Security%20%26%20Nutrition/get_food_security_api_v1_food_food_security_get`,
-    'population': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_population_api_v1_population_social_population_get`,
-    'poverty-rate': `${sandboxBaseURL}/Population%20%26%20Socio-Economy/get_poverty_rate_api_v1_population_social_poverty_rate_get`
+    'Humanitarian Needs': `${sandboxBaseURL}/Affected%20People/get_humanitarian_needs_api_v2_affected_people_humanitarian_needs_get`,
+    'Internally-Displaced Persons': `${sandboxBaseURL}/Affected%20People/get_idps_api_v2_affected_people_idps_get`,
+    'Refugees & Persons of Concern': `${sandboxBaseURL}/Affected%20People/get_refugees_api_v2_affected_people_refugees_persons_of_concern_get`,
+    'Returnees': `${sandboxBaseURL}/Affected%20People/get_returnees_api_v2_affected_people_returnees_get`,
+    'Conflict Events': `${sandboxBaseURL}/Coordination%20&%20Context/get_conflict_event_api_v2_coordination_context_conflict_events_get`,
+    'Funding': `${sandboxBaseURL}/Coordination%20&%20Context/get_funding_api_v2_coordination_context_funding_get`,
+    'National Risk': `${sandboxBaseURL}/Coordination%20&%20Context/get_national_risk_api_v2_coordination_context_national_risk_get`,
+    'Who Is Doing What Where - Operational Presence': `${sandboxBaseURL}/Coordination%20&%20Context/get_operational_presence_api_v2_coordination_context_operational_presence_get`,
+    'Food Prices': `${sandboxBaseURL}/Food%20Security,%20Nutrition%20&%20Poverty/get_food_price_api_v2_food_security_nutrition_poverty_food_prices_market_monitor_get`,
+    'Food Security': `${sandboxBaseURL}/Food%20Security,%20Nutrition%20&%20Poverty/get_food_security_api_v2_food_security_nutrition_poverty_food_security_get`,
+    'Poverty Rate': `${sandboxBaseURL}/Food%20Security,%20Nutrition%20&%20Poverty/get_poverty_rate_api_v2_food_security_nutrition_poverty_poverty_rate_get`,
+    'Baseline Population': `${sandboxBaseURL}/Geography%20&%20Infrastructure/get_population_api_v2_geography_infrastructure_baseline_population_get`
   }
 
   function onMouseover(e) {
@@ -138,7 +140,7 @@
             {#each subcategories as subcategory}
               <th>{subcategory}<br>
                 <span>
-                  <a href={(sandboxURL[subcategory] !== undefined) ? sandboxURL[subcategory] : 'https://hapi.humdata.org/docs#/'} target='_blank'>Go to API Sandbox</a>
+                  <a href={(sandboxURL[subcategory] !== undefined) ? sandboxURL[subcategory] : sandboxBaseURL} target='_blank'>Go to API Sandbox</a>
                 </span>
               </th>
             {/each}

@@ -10,7 +10,7 @@
 
   console.log(categories)
 
-  const sandboxBaseURL = 'https://feature.hapi-humdata-org.ahconu.org/docs#';//https://hapi.humdata.org/docs#';
+  const sandboxBaseURL = 'https://hapi.humdata.org/docs#';
   const sandboxURL = {
     'Humanitarian Needs': `${sandboxBaseURL}/Affected%20People/get_humanitarian_needs_api_v2_affected_people_humanitarian_needs_get`,
     'Internally-Displaced Persons': `${sandboxBaseURL}/Affected%20People/get_idps_api_v2_affected_people_idps_get`,

@@ -21,6 +21,8 @@
   $: currentTableData = {}
   $: selectValue = null;
 
+
+  // future improvement to pull cat and subcats from here https://raw.githubusercontent.com/OCHA-DAP/hapi-sqlalchemy-schema/refs/heads/main/src/hapi_schema/utils/endpoint_constants.py
   const categoryLabels = {
     'affected-people': 'Affected People',
     'coordination-context': 'Coordination & Context',
@@ -135,7 +137,7 @@
   // get categories and subcategories from data availability results
   function getCategories(data) {
     data.forEach(({ category, subcategory }) => {
-      if (category !== '') {
+      if (category !== '' && category !== undefined) {
         // get label from mapping
         const categoryName = categoryLabels[category] || category;
         
@@ -153,6 +155,7 @@
         }
       }
     });
+    console.log('categories', categories)
     return categories;
   }
 

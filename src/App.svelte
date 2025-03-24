@@ -155,7 +155,6 @@
         }
       }
     });
-    console.log('categories', categories)
     return categories;
   }
 

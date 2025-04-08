@@ -27,7 +27,8 @@
     'affected-people': 'Affected People',
     'coordination-context': 'Coordination & Context',
     'food-security-nutrition-poverty': 'Food Security, Nutrition & Poverty',
-    'geography-infrastructure': 'Geography & Infrastructure'
+    'geography-infrastructure': 'Geography & Infrastructure',
+    'climate': 'Climate'
   };
 
   const subcategoryLabels = {
@@ -42,7 +43,8 @@
     'food-prices-market-monitor': 'Food Prices',
     'food-security': 'Food Security',
     'poverty-rate': 'Poverty Rate',
-    'baseline-population': 'Baseline Population'
+    'baseline-population': 'Baseline Population',
+    'hazards-rainfall': 'Rainfall'
   };
 
   const base_url = 'https://hapi.humdata.org/api/v2/';
@@ -115,24 +117,6 @@
     }, []);
     return allCountries;
   }
-
-  // get categories and subcategories from data availability results
-  // function getCategories(data) {
-  //   data.forEach(({ category, subcategory }) => {
-  //     if (category !== '') {
-  //       // if category doesn't exist, create a new array
-  //       if (!categories[category]) {
-  //         categories[category] = [];
-  //       }
-
-  //       // add subcategory if hasnt already been added
-  //       if (!categories[category].includes(subcategory)) {
-  //         categories[category].push(subcategory);
-  //       }
-  //     }
-  //   });
-  //   return categories;
-  // }
 
   // get categories and subcategories from data availability results
   function getCategories(data) {

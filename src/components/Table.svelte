@@ -2,24 +2,18 @@
   import { onMount } from 'svelte';
 
   let tableWrapper, table, tableCells, tooltip;
-
   const hoverColor = '#FEF1EF';
 
   export let categories;
   export let currentTableData;
 
-  console.log(categories)
-
   categories = {
     'Affected People': ['Humanitarian Needs', 'Internally-Displaced Persons', 'Refugees & Persons of Concern', 'Returnees'],
+    'Climate': ['Rainfall'],
     'Coordination & Context': ['Conflict Events', 'Funding', 'National Risk', 'Who Is Doing What Where - Operational Presence'],
     'Food Security, Nutrition & Poverty': ['Food Prices', 'Food Security', 'Poverty Rate'],
-    'Geography & Infrastructure': ['Baseline Population'],
-    'Climate': ['Rainfall']
+    'Geography & Infrastructure': ['Baseline Population']
   };
-
-  
-  console.log(categories)
 
   const sandboxBaseURL = 'https://hapi.humdata.org/docs#';
   const sandboxURL = {

@@ -192,6 +192,7 @@
           sortedObj[location_name] = adminLevels[location_name];
           return sortedObj;
       }, {});
+      
     return sortedAdminLevels;
   }
 

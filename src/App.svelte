@@ -173,13 +173,13 @@
         }
 
         // logic to determine admin level
-        if ((admin1_name === 'UNSPECIFIED' || admin1_name === '') && (admin2_name === 'UNSPECIFIED' || admin2_name === '')) {
+        if (row.admin_level === '0') {
           adminLevels[location_name][subcategory].admin0 = true;
         } 
-        else if ((admin1_name !== 'UNSPECIFIED' || admin1_name === '') && (admin2_name === 'UNSPECIFIED' || admin2_name === '')) {
+        else if (row.admin_level === '1') {
           adminLevels[location_name][subcategory].admin1 = true;
         } 
-        else if ((admin1_name !== 'UNSPECIFIED' || admin1_name === '') && (admin2_name !== 'UNSPECIFIED' || admin2_name === '')) {
+        else if (row.admin_level === '2') {
           adminLevels[location_name][subcategory].admin2 = true;
         }
       }

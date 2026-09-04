@@ -31355,8 +31355,8 @@ AGO,Angola,AO18,Zaire,AO18163,Tomboco,,,2,geography-infrastructure,baseline-popu
 AGO,Angola,AO18,Zaire,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AIA,Anguilla,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ATG,Antigua and Barbuda,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-ARG,Argentina,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ARG,Argentina,ARG-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+ARG,Argentina,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ARM,Armenia,AM02,Aragatsotn,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ARM,Armenia,AM03,Ararat,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ARM,Armenia,AM04,Armavir,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -31372,15 +31372,15 @@ ARM,Armenia,AM01,Yerevan,,,,,1,geography-infrastructure,baseline-population,2026
 ABW,Aruba,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AZE,Azerbaijan,AZ30800001,Absheron,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AZE,Azerbaijan,AZ30800001,Absheron,AZ30800001-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-AZE,Azerbaijan,AZ00000003,Baku,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AZE,Azerbaijan,AZ00000003,Baku,AZ00000003-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-AZE,Azerbaijan,AZ80201002,Lankaran,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+AZE,Azerbaijan,AZ00000003,Baku,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AZE,Azerbaijan,AZ80201002,Lankaran,AZ80201002-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+AZE,Azerbaijan,AZ80201002,Lankaran,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AZE,Azerbaijan,AZ10400002,Nakhchivan,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AZE,Azerbaijan,AZ10400002,Nakhchivan,AZ10400002-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-AZE,Azerbaijan,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-AZE,Azerbaijan,AZE-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 AZE,Azerbaijan,AZE-XXX,UNSPECIFIED,AZE-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+AZE,Azerbaijan,AZE-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+AZE,Azerbaijan,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 BHS,Bahamas,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 BGD,Bangladesh,BD10,Barishal,BD1004,Barguna,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 BGD,Bangladesh,BD10,Barishal,BD1006,Barishal,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -33722,8 +33722,8 @@ COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,CD3306,Kutu,,,2,geography-
 COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,CD3307,Kwamouth,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,CD3311,Mushie,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,CD3304,Oshwe,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,CD33-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,CD33-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD33,Maï-Ndombe,CD3310,Yumbi,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD63,Maniema,CD6309,Kabambare,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD63,Maniema,CD6302,Kailo,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -33733,8 +33733,8 @@ COD,Democratic Republic of the Congo,CD63,Maniema,CD6301,Kindu,,,2,geography-inf
 COD,Democratic Republic of the Congo,CD63,Maniema,CD6305,Lubutu,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD63,Maniema,CD6307,Pangi,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD63,Maniema,CD6303,Punia,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-COD,Democratic Republic of the Congo,CD63,Maniema,CD63-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD63,Maniema,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+COD,Democratic Republic of the Congo,CD63,Maniema,CD63-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD44,Mongala,CD4405,Bongandanga,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD44,Mongala,CD4404,Bumba,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD44,Mongala,CD4402,Lisala,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -33761,8 +33761,8 @@ COD,Democratic Republic of the Congo,CD83,Sankuru,CD8303,Lodja,,,2,geography-inf
 COD,Democratic Republic of the Congo,CD83,Sankuru,CD8307,Lomela,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD83,Sankuru,CD8309,Lubefu,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD83,Sankuru,CD8302,Lusambo,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-COD,Democratic Republic of the Congo,CD83,Sankuru,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD83,Sankuru,CD83-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+COD,Democratic Republic of the Congo,CD83,Sankuru,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD62,Sud-Kivu,CD6201,Bukavu,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD62,Sud-Kivu,CD6210,Fizi,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD62,Sud-Kivu,CD6206,Idjwi,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -33786,8 +33786,8 @@ COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7409,Kongolo,,,2,geograph
 COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7406,Manono,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7404,Moba,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD74,Tanganyika,CD7410,Nyunzu,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-COD,Democratic Republic of the Congo,CD74,Tanganyika,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD74,Tanganyika,CD74-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+COD,Democratic Republic of the Congo,CD74,Tanganyika,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD51,Tshopo,CD5111,Bafwasende,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD51,Tshopo,CD5110,Banalia,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD51,Tshopo,CD5109,Basoko,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -33806,8 +33806,8 @@ COD,Democratic Republic of the Congo,CD45,Tshuapa,CD4505,Ikela,,,2,geography-inf
 COD,Democratic Republic of the Congo,CD45,Tshuapa,CD4507,Monkoto,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,CD45,Tshuapa,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 COD,Democratic Republic of the Congo,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-DJI,Djibouti,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 DJI,Djibouti,DJI-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+DJI,Djibouti,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 DMA,Dominica,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 DOM,Dominican Republic,DO01,Región Cibao Nordeste,DO0101,Provincia Duarte,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 DOM,Dominican Republic,DO01,Región Cibao Nordeste,DO0102,Provincia Hermanas Mirabal,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -34069,8 +34069,8 @@ ETH,Ethiopia,ET07,Central Ethiopia,ET0702,Hadiya,,,2,geography-infrastructure,ba
 ETH,Ethiopia,ET07,Central Ethiopia,ET0714,Halaba,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET07,Central Ethiopia,ET0703,Kembata,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET07,Central Ethiopia,ET0720,Siltie,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-ETH,Ethiopia,ET07,Central Ethiopia,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET07,Central Ethiopia,ET07-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+ETH,Ethiopia,ET07,Central Ethiopia,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET07,Central Ethiopia,ET0724,Yem,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET15,Dire Dawa,ET1502,Dire Dawa rural,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET15,Dire Dawa,ET1501,Dire Dawa urban,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -34104,8 +34104,8 @@ ETH,Ethiopia,ET04,Oromia,ET0415,West Guji,,,2,geography-infrastructure,baseline-
 ETH,Ethiopia,ET04,Oromia,ET0409,West Hararge,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET04,Oromia,ET0405,West Shewa,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET04,Oromia,ET0401,West Wellega,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-ETH,Ethiopia,ET16,Sidama,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET16,Sidama,ET16-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+ETH,Ethiopia,ET16,Sidama,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET05,Somali,ET0508,Afder,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET05,Somali,ET0511,Daawa,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET05,Somali,ET0507,Doolo,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -34131,12 +34131,12 @@ ETH,Ethiopia,ET01,Tigray,ET0107,Mekelle,,,2,geography-infrastructure,baseline-po
 ETH,Ethiopia,ET01,Tigray,ET0101,North Western,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET01,Tigray,ET0106,South Eastern,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET01,Tigray,ET0104,Southern,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-ETH,Ethiopia,ET01,Tigray,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,ET01,Tigray,ET01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+ETH,Ethiopia,ET01,Tigray,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ETH,Ethiopia,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-FJI,Fiji,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-FJI,Fiji,FJI-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 FJI,Fiji,FJI-XXX,UNSPECIFIED,FJI-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+FJI,Fiji,FJI-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+FJI,Fiji,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GUF,French Guiana,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GUF,French Guiana,GUF-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GUF,French Guiana,GUF-XXX,UNSPECIFIED,GUF-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -34353,8 +34353,8 @@ GHA,Ghana,GH08,Northern,GH0810,Sagnerigu,,,2,geography-infrastructure,baseline-p
 GHA,Ghana,GH08,Northern,GH0812,Tamale Metropolitan,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GHA,Ghana,GH08,Northern,GH0813,Tatale Sanguli,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GHA,Ghana,GH08,Northern,GH0814,Tolon,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-GHA,Ghana,GH08,Northern,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GHA,Ghana,GH08,Northern,GH08-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+GHA,Ghana,GH08,Northern,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GHA,Ghana,GH08,Northern,GH0815,Yendi Municipal,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GHA,Ghana,GH08,Northern,GH0816,Zabzugu,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GHA,Ghana,GH09,Northern East,GH0902,Chereponi,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -34864,8 +34864,8 @@ GIN,Guinea,GN008,Nzerekore,GN008005,Nzerekore,,,2,geography-infrastructure,basel
 GIN,Guinea,GN008,Nzerekore,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GIN,Guinea,GN008,Nzerekore,GN008006,Yomou,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GIN,Guinea,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-GUY,Guyana,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 GUY,Guyana,GUY-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+GUY,Guyana,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 HTI,Haiti,HT05,Artibonite,HT0523,Anse Rouge,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 HTI,Haiti,HT05,Artibonite,HT0544,Desdunes,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 HTI,Haiti,HT05,Artibonite,HT0541,Dessalines,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -36447,8 +36447,8 @@ KEN,Kenya,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:
 KEN,Kenya,KE038,Vihiga,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 KEN,Kenya,KE008,Wajir,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 KEN,Kenya,KE024,West Pokot,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-KIR,Kiribati,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 KIR,Kiribati,KIR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+KIR,Kiribati,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 KIR,Kiribati,KIR-XXX,UNSPECIFIED,KIR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 KGZ,Kyrgyzstan,KG05000000000,Batken,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 KGZ,Kyrgyzstan,KG05000000000,Batken,KG05000000000-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -37039,8 +37039,8 @@ MLI,Mali,ML06,Timbuktu,ML0601,Timbuktu,,,2,geography-infrastructure,baseline-pop
 MLI,Mali,ML06,Timbuktu,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MLI,Mali,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MHL,Marshall Islands,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-MTQ,Martinique,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MTQ,Martinique,MTQ-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+MTQ,Martinique,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MTQ,Martinique,MTQ-XXX,UNSPECIFIED,MTQ-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MRT,Mauritania,MR07,Adrar,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MRT,Mauritania,MR03,Assaba,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -37056,8 +37056,8 @@ MRT,Mauritania,MR09,Tagant,,,,,1,geography-infrastructure,baseline-population,20
 MRT,Mauritania,MR11,Tiris Zemmour,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MRT,Mauritania,MR06,Trarza,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MRT,Mauritania,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-MUS,Mauritius,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MUS,Mauritius,MUS-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+MUS,Mauritius,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX01,Aguascalientes,MX01001,Aguascalientes,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX01,Aguascalientes,MX01002,Asientos,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX01,Aguascalientes,MX01003,Calvillo,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -37094,8 +37094,8 @@ MEX,Mexico,MX04,Campeche,MX04005,Hecelchakán,,,2,geography-infrastructure,basel
 MEX,Mexico,MX04,Campeche,MX04006,Hopelchén,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX04,Campeche,MX04007,Palizada,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX04,Campeche,MX04008,Tenabo,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-MEX,Mexico,MX04,Campeche,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX04,Campeche,MX04-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+MEX,Mexico,MX04,Campeche,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07001,Acacoyagua,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07002,Acala,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07003,Acapetahua,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -37208,8 +37208,8 @@ MEX,Mexico,MX07,Chiapas,MX07101,Tuxtla Gutiérrez,,,2,geography-infrastructure,b
 MEX,Mexico,MX07,Chiapas,MX07103,Tuzantán,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07104,Tzimol,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07105,Unión Juárez,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-MEX,Mexico,MX07,Chiapas,MX07-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+MEX,Mexico,MX07,Chiapas,MX07-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07106,Venustiano Carranza,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07071,Villa Comaltitlán,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX07,Chiapas,MX07107,Villa Corzo,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -38898,8 +38898,8 @@ MEX,Mexico,MX23,Quintana Roo,MX23007,Lázaro Cárdenas,,,2,geography-infrastruct
 MEX,Mexico,MX23,Quintana Roo,MX23004,Othón P. Blanco,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX23,Quintana Roo,MX23008,Solidaridad,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX23,Quintana Roo,MX23009,Tulum,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-MEX,Mexico,MX23,Quintana Roo,MX23-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX23,Quintana Roo,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+MEX,Mexico,MX23,Quintana Roo,MX23-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX24,San Luis Potosí,MX24001,Ahualulco,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX24,San Luis Potosí,MX24002,Alaquines,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX24,San Luis Potosí,MX24003,Aquismón,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -39554,9 +39554,9 @@ MEX,Mexico,MX32,Zacatecas,MX32053,Villa González Ortega,,,2,geography-infrastru
 MEX,Mexico,MX32,Zacatecas,MX32054,Villa Hidalgo,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX32,Zacatecas,MX32055,Villanueva,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MEX,Mexico,MX32,Zacatecas,MX32056,Zacatecas,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+FSM,Micronesia (Federated States of),FSM-XXX,UNSPECIFIED,FSM-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 FSM,Micronesia (Federated States of),,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 FSM,Micronesia (Federated States of),FSM-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-FSM,Micronesia (Federated States of),FSM-XXX,UNSPECIFIED,FSM-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MNG,Mongolia,MN65,Arxangai,MN6504,Batcengel,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MNG,Mongolia,MN65,Arxangai,MN6507,Bulgan,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MNG,Mongolia,MN65,Arxangai,MN6543,Caxir,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -39919,8 +39919,8 @@ MNG,Mongolia,MN81,Zavkhan,,,,,1,geography-infrastructure,baseline-population,202
 MNG,Mongolia,MN81,Zavkhan,MN8152,Urgamal,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MNG,Mongolia,MN81,Zavkhan,MN8170,Yaruu,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MNG,Mongolia,MN81,Zavkhan,MN8119,Zavxanmandal,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-MSR,Montserrat,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MSR,Montserrat,MSR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+MSR,Montserrat,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001001,Province d Azilal,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001002,Province de Beni Mellal,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001003,Province de Fquih Ben Saleh,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -40046,8 +40046,8 @@ MOZ,Mozambique,MZ01,Niassa,MZ0113,Muembe,,,2,geography-infrastructure,baseline-p
 MOZ,Mozambique,MZ01,Niassa,MZ0114,N'gauma,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MOZ,Mozambique,MZ01,Niassa,MZ0115,Nipepe,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MOZ,Mozambique,MZ01,Niassa,MZ0116,Sanga,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-MOZ,Mozambique,MZ01,Niassa,MZ01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MOZ,Mozambique,MZ01,Niassa,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+MOZ,Mozambique,MZ01,Niassa,MZ01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MOZ,Mozambique,MZ07,Sofala,MZ0702,Búzi,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MOZ,Mozambique,MZ07,Sofala,MZ0703,Caia,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 MOZ,Mozambique,MZ07,Sofala,MZ0704,Chemba,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -40605,8 +40605,8 @@ PAK,Pakistan,PK2,Balochistan,PK221,Musakhel,,,2,geography-infrastructure,baselin
 PAK,Pakistan,PK2,Balochistan,PK222,Nasirabad,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PAK,Pakistan,PK2,Balochistan,PK233,Shaheed Sikandarabad,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PAK,Pakistan,PK2,Balochistan,PK229,Sohbatpur,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-PAK,Pakistan,PK2,Balochistan,PK2-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PAK,Pakistan,PK2,Balochistan,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+PAK,Pakistan,PK2,Balochistan,PK2-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PAK,Pakistan,PK2,Balochistan,PK230,Washuk,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PAK,Pakistan,PK2,Balochistan,PK231,Zhob,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PAK,Pakistan,PK2,Balochistan,PK232,Ziarat,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -40834,20 +40834,20 @@ PER,Peru,PE23,Tacna,,,,,1,geography-infrastructure,baseline-population,2026-09-0
 PER,Peru,PE24,Tumbes,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PER,Peru,PE25,Ucayali,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PER,Peru,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-PHL,Philippines,PH14,Cordillera Administrative Region (CAR),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH14,Cordillera Administrative Region (CAR),PH14-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-PHL,Philippines,PH17,Mimaropa Region,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+PHL,Philippines,PH14,Cordillera Administrative Region (CAR),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH17,Mimaropa Region,PH17-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-PHL,Philippines,PH13,National Capital Region (NCR),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+PHL,Philippines,PH17,Mimaropa Region,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH13,National Capital Region (NCR),PH13-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+PHL,Philippines,PH13,National Capital Region (NCR),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH02,Region II (Cagayan Valley),PH02-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH02,Region II (Cagayan Valley),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH03,Region III (Central Luzon),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH03,Region III (Central Luzon),PH03-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-PHL,Philippines,PH01,Region I (Ilocos Region),PH01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH01,Region I (Ilocos Region),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-PHL,Philippines,PH04,Region IV-A (Calabarzon),PH04-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+PHL,Philippines,PH01,Region I (Ilocos Region),PH01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH04,Region IV-A (Calabarzon),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+PHL,Philippines,PH04,Region IV-A (Calabarzon),PH04-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),PH09-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH05,Region V (Bicol Region),PH05-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -40866,9 +40866,9 @@ PHL,Philippines,PH12,Region XII (Soccsksargen),,,,,1,geography-infrastructure,ba
 PHL,Philippines,PH12,Region XII (Soccsksargen),PH12-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH10,Region X (Northern Mindanao),,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PH10,Region X (Northern Mindanao),PH10-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-PHL,Philippines,PHL-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,PHL-XXX,UNSPECIFIED,PHL-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 PHL,Philippines,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+PHL,Philippines,PHL-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 POL,Poland,PL002,Dolnośląskie,PL002001,Boleslawiecki,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 POL,Poland,PL002,Dolnośląskie,PL002002,Dzierzoniowski,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 POL,Poland,PL002,Dolnośląskie,PL002003,Glogowski,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -41354,11 +41354,11 @@ ROU,Romania,RO005,Vest,RO005118,Caraș-Severin,,,2,geography-infrastructure,base
 ROU,Romania,RO005,Vest,RO005207,Hunedoara,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ROU,Romania,RO005,Vest,RO005350,Timiș,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 ROU,Romania,RO005,Vest,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-RWA,Rwanda,RWA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 RWA,Rwanda,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+RWA,Rwanda,RWA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 RWA,Rwanda,RWA-XXX,UNSPECIFIED,RWA-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-BLM,Saint Barthélemy,BLM-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 BLM,Saint Barthélemy,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+BLM,Saint Barthélemy,BLM-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 KNA,Saint Kitts and Nevis,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 LCA,Saint Lucia,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 LCA,Saint Lucia,LCA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -41366,8 +41366,8 @@ MAF,Saint Martin (French part),,,,,,,0,geography-infrastructure,baseline-populat
 MAF,Saint Martin (French part),MAF-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 VCT,Saint Vincent and the Grenadines,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 STP,Sao Tome and Principe,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-STP,Sao Tome and Principe,STP-XXX,UNSPECIFIED,STP-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 STP,Sao Tome and Principe,STP-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+STP,Sao Tome and Principe,STP-XXX,UNSPECIFIED,STP-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SAU,Saudi Arabia,SA11,Al Bahah,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SAU,Saudi Arabia,SA08,Al Hudud ash Shamaliyah,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SAU,Saudi Arabia,SA12,Al Jawf,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -41397,9 +41397,9 @@ SEN,Senegal,SN12,Tambacounda,,,,,1,geography-infrastructure,baseline-population,
 SEN,Senegal,SN13,Thiès,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SEN,Senegal,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SEN,Senegal,SN14,Ziguinchor,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-SYC,Seychelles,SYC-XXX,UNSPECIFIED,SYC-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-SYC,Seychelles,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SYC,Seychelles,SYC-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+SYC,Seychelles,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+SYC,Seychelles,SYC-XXX,UNSPECIFIED,SYC-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SLE,Sierra Leone,SL01,Eastern,SL0101,Kailahun,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SLE,Sierra Leone,SL01,Eastern,SL0102,Kenema,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SLE,Sierra Leone,SL01,Eastern,SL0103,Kono,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -42008,11 +42008,11 @@ SDN,Sudan,SD09,White Nile,SD09046,Rabak,,,2,geography-infrastructure,baseline-po
 SDN,Sudan,SD09,White Nile,SD09048,Tendalti,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SDN,Sudan,SD09,White Nile,SD09045,Um Rimta,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SDN,Sudan,SD09,White Nile,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-SUR,Suriname,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SUR,Suriname,SUR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+SUR,Suriname,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 SUR,Suriname,SUR-XXX,UNSPECIFIED,SUR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-TJK,Tajikistan,TJK-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 TJK,Tajikistan,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+TJK,Tajikistan,TJK-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 THA,Thailand,TH37,Amnat Charoen,TH3702,Chanuman,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 THA,Thailand,TH37,Amnat Charoen,TH3706,Hua Taphan,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 THA,Thailand,TH37,Amnat Charoen,TH3707,Lue Amnat,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
@@ -44272,12 +44272,12 @@ UGA,Uganda,UG4,Western,UG4133,Rukungiri,,,2,geography-infrastructure,baseline-po
 UGA,Uganda,UG4,Western,UG4134,Rwampara,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 UGA,Uganda,UG4,Western,UG4135,Sheema,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 UGA,Uganda,UG4,Western,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-TZA,United Republic of Tanzania,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 TZA,United Republic of Tanzania,TZA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+TZA,United Republic of Tanzania,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 TZA,United Republic of Tanzania,TZA-XXX,UNSPECIFIED,TZA-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-VIR,United States Virgin Islands,VIR-XXX,UNSPECIFIED,VIR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
-VIR,United States Virgin Islands,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 VIR,United States Virgin Islands,VIR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+VIR,United States Virgin Islands,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
+VIR,United States Virgin Islands,VIR-XXX,UNSPECIFIED,VIR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 URY,Uruguay,,,,,,,0,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 URY,Uruguay,URY-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743
 UZB,Uzbekistan,UZB-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-09-03 01:35:19.982743

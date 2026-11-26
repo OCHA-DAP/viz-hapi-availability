@@ -40405,9 +40405,9 @@ MEX,Mexico,MX32,Zacatecas,MX32053,Villa González Ortega,,,2,geography-infrastru
 MEX,Mexico,MX32,Zacatecas,MX32054,Villa Hidalgo,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MEX,Mexico,MX32,Zacatecas,MX32055,Villanueva,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MEX,Mexico,MX32,Zacatecas,MX32056,Zacatecas,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+FSM,Micronesia (Federated States of),FSM-XXX,UNSPECIFIED,FSM-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 FSM,Micronesia (Federated States of),,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 FSM,Micronesia (Federated States of),FSM-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-FSM,Micronesia (Federated States of),FSM-XXX,UNSPECIFIED,FSM-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MNG,Mongolia,MN65,Arxangai,MN6504,Batcengel,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MNG,Mongolia,MN65,Arxangai,MN6507,Bulgan,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MNG,Mongolia,MN65,Arxangai,MN6543,Caxir,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -40770,8 +40770,8 @@ MNG,Mongolia,MN81,Zavkhan,,,,,1,geography-infrastructure,baseline-population,202
 MNG,Mongolia,MN81,Zavkhan,MN8152,Urgamal,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MNG,Mongolia,MN81,Zavkhan,MN8170,Yaruu,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MNG,Mongolia,MN81,Zavkhan,MN8119,Zavxanmandal,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-MSR,Montserrat,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MSR,Montserrat,MSR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+MSR,Montserrat,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001001,Province d Azilal,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001002,Province de Beni Mellal,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MAR,Morocco,MA001,Beni Mellal Khenifra,MA001003,Province de Fquih Ben Saleh,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -40850,8 +40850,8 @@ MOZ,Mozambique,MZ08,Inhambane,MZ0808,Mabote,,,2,geography-infrastructure,baselin
 MOZ,Mozambique,MZ08,Inhambane,MZ0809,Massinga,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ08,Inhambane,MZ0811,Morrumbene,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ08,Inhambane,MZ0812,Panda,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-MOZ,Mozambique,MZ08,Inhambane,MZ08-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ08,Inhambane,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+MOZ,Mozambique,MZ08,Inhambane,MZ08-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ08,Inhambane,MZ0813,Vilankulo,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ08,Inhambane,MZ0814,Zavala,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ06,Manica,MZ0601,Cidade de Chimoio,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -40864,8 +40864,8 @@ MOZ,Mozambique,MZ10,Maputo,MZ1005,Marracuene,,,2,geography-infrastructure,baseli
 MOZ,Mozambique,MZ10,Maputo,MZ1006,Matutuine,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ10,Maputo,MZ1007,Moamba,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ10,Maputo,MZ1008,Namaacha,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-MOZ,Mozambique,MZ10,Maputo,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ10,Maputo,MZ10-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+MOZ,Mozambique,MZ10,Maputo,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ03,Nampula,MZ0302,Angoche,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ03,Nampula,MZ0301,Cidade de Nampula,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ03,Nampula,MZ0303,Erati,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -40912,8 +40912,8 @@ MOZ,Mozambique,MZ07,Sofala,MZ0710,Maringue,,,2,geography-infrastructure,baseline
 MOZ,Mozambique,MZ07,Sofala,MZ0711,Marromeu,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ07,Sofala,MZ0712,Muanza,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ07,Sofala,MZ0713,Nhamatanda,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-MOZ,Mozambique,MZ07,Sofala,MZ07-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ07,Sofala,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+MOZ,Mozambique,MZ07,Sofala,MZ07-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ05,Tete,MZ0502,Angónia,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ05,Tete,MZ0503,Cahora Bassa,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MOZ,Mozambique,MZ05,Tete,MZ0504,Changara,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -41456,8 +41456,8 @@ PAK,Pakistan,PK2,Balochistan,PK221,Musakhel,,,2,geography-infrastructure,baselin
 PAK,Pakistan,PK2,Balochistan,PK222,Nasirabad,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PAK,Pakistan,PK2,Balochistan,PK233,Shaheed Sikandarabad,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PAK,Pakistan,PK2,Balochistan,PK229,Sohbatpur,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PAK,Pakistan,PK2,Balochistan,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PAK,Pakistan,PK2,Balochistan,PK2-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PAK,Pakistan,PK2,Balochistan,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PAK,Pakistan,PK2,Balochistan,PK230,Washuk,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PAK,Pakistan,PK2,Balochistan,PK231,Zhob,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PAK,Pakistan,PK2,Balochistan,PK232,Ziarat,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -41953,8 +41953,8 @@ PER,Peru,PE25,Ucayali,,,,,1,geography-infrastructure,baseline-population,2026-11
 PER,Peru,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH14,Cordillera Administrative Region (CAR),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH14,Cordillera Administrative Region (CAR),PH14-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH17,Mimaropa Region,PH17-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH17,Mimaropa Region,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH17,Mimaropa Region,PH17-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH13,National Capital Region (NCR),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH13,National Capital Region (NCR),PH13-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH02,Region II (Cagayan Valley),PH02-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -41963,29 +41963,29 @@ PHL,Philippines,PH03,Region III (Central Luzon),,,,,1,geography-infrastructure,b
 PHL,Philippines,PH03,Region III (Central Luzon),PH03-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH01,Region I (Ilocos Region),PH01-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH01,Region I (Ilocos Region),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH04,Region IV-A (Calabarzon),PH04-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH04,Region IV-A (Calabarzon),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),PH09-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH04,Region IV-A (Calabarzon),PH04-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH09,Region IX (Zamboanga Peninsula),PH09-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH05,Region V (Bicol Region),PH05-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH05,Region V (Bicol Region),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH07,Region VII (Central Visayas),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH07,Region VII (Central Visayas),PH07-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH08,Region VIII (Eastern Visayas),PH08-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH07,Region VII (Central Visayas),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH08,Region VIII (Eastern Visayas),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH06,Region VI (Western Visayas),PH06-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH08,Region VIII (Eastern Visayas),PH08-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH06,Region VI (Western Visayas),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH11,Region XI (Davao Region),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH06,Region VI (Western Visayas),PH06-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH11,Region XI (Davao Region),PH11-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH11,Region XI (Davao Region),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH16,Region XIII (Caraga),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH16,Region XIII (Caraga),PH16-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH12,Region XII (Soccsksargen),PH12-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH12,Region XII (Soccsksargen),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PH10,Region X (Northern Mindanao),PH10-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH12,Region XII (Soccsksargen),PH12-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PH10,Region X (Northern Mindanao),,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-PHL,Philippines,PHL-XXX,UNSPECIFIED,PHL-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PH10,Region X (Northern Mindanao),PH10-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,PHL-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 PHL,Philippines,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+PHL,Philippines,PHL-XXX,UNSPECIFIED,PHL-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 POL,Poland,PL002,Dolnośląskie,PL002001,Boleslawiecki,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 POL,Poland,PL002,Dolnośląskie,PL002002,Dzierzoniowski,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 POL,Poland,PL002,Dolnośląskie,PL002003,Glogowski,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -42471,19 +42471,19 @@ ROU,Romania,RO005,Vest,RO005118,Caraș-Severin,,,2,geography-infrastructure,base
 ROU,Romania,RO005,Vest,RO005207,Hunedoara,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 ROU,Romania,RO005,Vest,RO005350,Timiș,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 ROU,Romania,RO005,Vest,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-RWA,Rwanda,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 RWA,Rwanda,RWA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+RWA,Rwanda,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 RWA,Rwanda,RWA-XXX,UNSPECIFIED,RWA-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 BLM,Saint Barthélemy,BLM-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 BLM,Saint Barthélemy,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 KNA,Saint Kitts and Nevis,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 LCA,Saint Lucia,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 LCA,Saint Lucia,LCA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-MAF,Saint Martin (French part),,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 MAF,Saint Martin (French part),MAF-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+MAF,Saint Martin (French part),,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 VCT,Saint Vincent and the Grenadines,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-STP,Sao Tome and Principe,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 STP,Sao Tome and Principe,STP-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+STP,Sao Tome and Principe,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 STP,Sao Tome and Principe,STP-XXX,UNSPECIFIED,STP-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SAU,Saudi Arabia,SA11,Al Bahah,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SAU,Saudi Arabia,SA08,Al Hudud ash Shamaliyah,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -42514,9 +42514,9 @@ SEN,Senegal,SN12,Tambacounda,,,,,1,geography-infrastructure,baseline-population,
 SEN,Senegal,SN13,Thiès,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SEN,Senegal,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SEN,Senegal,SN14,Ziguinchor,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-SYC,Seychelles,SYC-XXX,UNSPECIFIED,SYC-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-SYC,Seychelles,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SYC,Seychelles,SYC-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+SYC,Seychelles,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+SYC,Seychelles,SYC-XXX,UNSPECIFIED,SYC-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL01,Eastern,SL0101,Kailahun,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL01,Eastern,SL0102,Kenema,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL01,Eastern,SL0103,Kono,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -42524,8 +42524,8 @@ SLE,Sierra Leone,SL01,Eastern,,,,,1,geography-infrastructure,baseline-population
 SLE,Sierra Leone,SL02,Northern,SL0201,Bombali,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL02,Northern,SL0203,Koinadugu,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL02,Northern,SL0205,Tonkolili,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-SLE,Sierra Leone,SL02,Northern,SL02-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL02,Northern,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+SLE,Sierra Leone,SL02,Northern,SL02-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL03,Southern,SL0301,Bo,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL03,Southern,SL0302,Bonthe,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLE,Sierra Leone,SL03,Southern,SL0303,Moyamba,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -42633,9 +42633,9 @@ SVK,Slovakia,SK031,Žilinský kraj,SK031009,Turčianske Teplice,,,2,geography-in
 SVK,Slovakia,SK031,Žilinský kraj,SK031010,Tvrdošín,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SVK,Slovakia,SK031,Žilinský kraj,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SVK,Slovakia,SK031,Žilinský kraj,SK031011,Žilina,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-SLB,Solomon Islands,SLB-XXX,UNSPECIFIED,SLB-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLB,Solomon Islands,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SLB,Solomon Islands,SLB-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+SLB,Solomon Islands,SLB-XXX,UNSPECIFIED,SLB-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SOM,Somalia,SO11,Awdal,SO1102,Baki,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SOM,Somalia,SO11,Awdal,SO1101,Borama,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SOM,Somalia,SO11,Awdal,SO1103,Lughaye,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -43126,8 +43126,8 @@ SDN,Sudan,SD09,White Nile,SD09048,Tendalti,,,2,geography-infrastructure,baseline
 SDN,Sudan,SD09,White Nile,SD09045,Um Rimta,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SDN,Sudan,SD09,White Nile,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SUR,Suriname,SUR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-SUR,Suriname,SUR-XXX,UNSPECIFIED,SUR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 SUR,Suriname,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+SUR,Suriname,SUR-XXX,UNSPECIFIED,SUR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TJK,Tajikistan,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TJK,Tajikistan,TJK-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 THA,Thailand,TH37,Amnat Charoen,TH3702,Chanuman,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -44157,8 +44157,8 @@ TGO,Togo,TG04,Plateaux,,,,,1,geography-infrastructure,baseline-population,2026-1
 TGO,Togo,TG05,Savanes,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TGO,Togo,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TKL,Tokelau,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-TON,Tonga,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TON,Tonga,TON-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+TON,Tonga,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TON,Tonga,TON-XXX,UNSPECIFIED,TON-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TTO,Trinidad and Tobago,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TTO,Trinidad and Tobago,TTO-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
@@ -45389,9 +45389,9 @@ UGA,Uganda,UG4,Western,UG4133,Rukungiri,,,2,geography-infrastructure,baseline-po
 UGA,Uganda,UG4,Western,UG4134,Rwampara,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 UGA,Uganda,UG4,Western,UG4135,Sheema,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 UGA,Uganda,UG4,Western,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-TZA,United Republic of Tanzania,TZA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
-TZA,United Republic of Tanzania,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 TZA,United Republic of Tanzania,TZA-XXX,UNSPECIFIED,TZA-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+TZA,United Republic of Tanzania,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
+TZA,United Republic of Tanzania,TZA-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 VIR,United States Virgin Islands,VIR-XXX,UNSPECIFIED,,,,,1,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 VIR,United States Virgin Islands,,,,,,,0,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
 VIR,United States Virgin Islands,VIR-XXX,UNSPECIFIED,VIR-XXX-XXX,UNSPECIFIED,,,2,geography-infrastructure,baseline-population,2026-11-23 01:14:00.617584
